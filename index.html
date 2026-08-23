@@ -8,8 +8,8 @@
 <style>
 :root{--paper:#eee5d2;--sheet:#faf5ea;--ink:#24221e;--muted:#6e675d;--red:#762b2b;--dark:#521d20;--line:#b9ad98;--faint:#ddd2bf;--green:#365d48;--serif:Georgia,"Times New Roman",serif;--mono:"Courier New",monospace;--sans:Arial,sans-serif}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);background:var(--paper);font:15px/1.55 var(--serif);background-image:repeating-linear-gradient(0deg,rgba(70,55,35,.018) 0,rgba(70,55,35,.018) 1px,transparent 1px,transparent 4px)}button,input{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--red);outline-offset:3px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.shell{width:min(1080px,calc(100% - 32px));margin:auto}.kicker,.stepcount,.meta,.crumb,.table th{font:700 10px/1.3 var(--mono);letter-spacing:.11em;text-transform:uppercase}.kicker{color:var(--red)}.stamp{display:inline-block;color:var(--red);border:2px solid var(--red);padding:4px 8px;transform:rotate(-1.5deg);font:700 10px var(--mono);text-transform:uppercase;letter-spacing:.1em}.workflow{position:sticky;top:0;z-index:20;background:var(--paper);border-bottom:1px solid var(--line)}.workflow ol{list-style:none;margin:0 auto;padding:10px 0;display:grid;grid-template-columns:repeat(7,1fr);gap:6px}.crumb{width:100%;border:0;background:transparent;color:var(--muted);padding:5px 2px;white-space:nowrap}.crumb span{display:grid;place-items:center;width:22px;height:22px;margin:0 auto 5px;border:1px solid var(--muted);border-radius:50%}.crumb[aria-current=step]{color:var(--red)}.crumb[aria-current=step] span{color:var(--sheet);background:var(--red);border-color:var(--red)}.crumb.visited span{color:var(--sheet);background:var(--ink);border-color:var(--ink)}main{padding:34px 0 55px}.wizard{border:1px solid var(--line);background:rgba(250,245,234,.82);box-shadow:5px 6px 0 rgba(36,34,30,.08)}.panel{padding:clamp(20px,4vw,42px)}.panel[hidden]{display:none}.panelhead{display:grid;grid-template-columns:1fr auto;align-items:end;gap:24px;padding-bottom:18px;margin-bottom:24px;border-bottom:3px double var(--ink)}.stepcount{color:var(--red);margin-bottom:7px}.panel h2{margin:0;font:400 clamp(30px,4vw,46px)/1 var(--serif);letter-spacing:-.025em}.lede{max-width:720px;margin:10px 0 0;color:var(--muted);font-size:16px}.filemeta{text-align:right;color:var(--muted);font:10px/1.7 var(--mono);text-transform:uppercase}.filemeta strong{display:block;color:var(--ink)}.creative{display:grid;grid-template-columns:1fr 1fr;gap:24px}.creative figure{margin:0}.postlabel{font:700 10px var(--mono);color:var(--red);text-transform:uppercase;letter-spacing:.12em;margin-bottom:7px}.imageframe{aspect-ratio:3/2;border:1px solid var(--line);overflow:hidden;box-shadow:3px 4px 0 rgba(36,34,30,.1)}.imageframe img{display:block;width:100%;height:100%;object-fit:cover}.choicecards{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:25px}.choice{border:1px solid var(--ink);padding:20px;background:var(--sheet)}.choice h3{margin:0;font:400 23px/1.15 var(--serif)}.choice p{min-height:47px;margin:8px 0 16px;color:var(--muted)}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:45px;border:1px solid var(--dark);padding:10px 17px;background:var(--dark);color:var(--sheet);font:700 11px var(--mono);letter-spacing:.07em;text-transform:uppercase;text-decoration:none}.btn:hover{background:var(--red)}.btn.secondary{background:transparent;color:var(--ink);border-color:var(--ink)}.btn:disabled{background:var(--faint);border-color:var(--line);color:var(--muted);cursor:not-allowed}.formbox{max-width:720px;border:1px solid var(--line);padding:22px;background:var(--sheet)}fieldset{border:0;padding:0;margin:0}legend,.fieldlabel{display:block;margin-bottom:8px;font:700 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--red)}.segments{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--ink)}.segments label{position:relative;display:flex;align-items:center;justify-content:center;min-height:48px;padding:8px;text-align:center;font:700 10px var(--mono);text-transform:uppercase;cursor:pointer}.segments label+label{border-left:1px solid var(--ink)}.segments input{position:absolute;opacity:0}.segments label:has(input:checked){background:var(--ink);color:var(--sheet)}.segments label:has(input:focus-visible){outline:3px solid var(--red);outline-offset:3px;z-index:1}.address{margin-top:18px}.address[hidden]{display:none}.address input{width:100%;min-height:45px;border:1px solid var(--line);background:#fffdf7;padding:10px}.locationcard{margin-top:18px;padding:15px;border-left:3px solid var(--red);background:var(--paper)}.locationcard strong{display:block;font-size:18px}.coords,.hint{color:var(--muted);font-size:12px}.rangebox{max-width:760px}.control-label{display:flex;justify-content:space-between;gap:12px;font:700 12px var(--mono);text-transform:uppercase}.control-label output{color:var(--red)}input[type=range]{width:100%;height:48px;accent-color:var(--red)}.ticks{display:flex;justify-content:space-between;margin-top:-9px;color:var(--muted);font:10px var(--mono)}.tiergrid,.approvalgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}.fact{border-top:1px solid var(--ink);padding:12px 5px}.fact span{display:block;color:var(--muted);font:10px var(--mono);text-transform:uppercase;letter-spacing:.06em}.fact strong{font-size:25px;font-weight:400}.good{color:var(--green)}.scroll{overflow-x:auto;border:1px solid var(--line)}.table{border-collapse:collapse;width:100%;min-width:690px;background:var(--sheet)}.table th{padding:9px 14px;text-align:left;color:var(--red);border-bottom:1px solid var(--line)}.table td{padding:10px 14px;border-bottom:1px solid var(--faint);font-size:13px}.table input{width:18px;height:18px;accent-color:var(--red)}.status{color:var(--green);font:700 10px var(--mono);text-transform:uppercase}.status.review{color:var(--red)}.tiny{font-size:11px;color:var(--muted)}.tablemeta{display:flex;justify-content:space-between;gap:15px;margin:10px 0;color:var(--muted);font:10px var(--mono)}.readiness{margin-top:20px;border:1px solid var(--red);padding:16px;color:var(--dark)}.readiness strong{display:block;font:700 11px var(--mono);text-transform:uppercase;letter-spacing:.08em}.confirmbox{max-width:720px;border:1px solid var(--ink);padding:24px;background:var(--sheet)}.confirmbox h3{font-size:27px;font-weight:400;margin:0}.confirmbox p{color:var(--muted)}.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px clamp(20px,4vw,42px);border-top:1px solid var(--line);background:var(--sheet)}.nav .btn{min-width:130px}.navstatus{color:var(--muted);font:10px var(--mono);text-transform:uppercase;text-align:center}.footer{border-top:3px double var(--ink);padding:17px 0 30px;font:10px var(--mono);color:var(--muted);text-transform:uppercase;letter-spacing:.08em}.toast{position:fixed;z-index:30;left:50%;bottom:18px;transform:translate(-50%,15px);opacity:0;background:var(--ink);color:var(--sheet);padding:10px 14px;font:11px var(--mono);transition:.2s}.toast.show{opacity:1;transform:translate(-50%,0)}
 @media(max-width:700px){.shell{width:calc(100% - 20px)}.panelhead{grid-template-columns:1fr}.filemeta{text-align:left}.workflow ol{grid-template-columns:repeat(4,1fr);gap:2px 1px;padding:7px 0}.crumb{min-height:47px;padding:3px 1px;font-size:9px;line-height:1.15;white-space:normal}.crumb span{font-size:9px;margin-bottom:2px}.creative,.choicecards,.tiergrid,.approvalgrid{grid-template-columns:1fr}.choice p{min-height:0}.segments{grid-template-columns:1fr}.segments label+label{border-left:0;border-top:1px solid var(--ink)}.navstatus{display:none}.nav .btn{min-width:0}.tablemeta{flex-direction:column}.panel{padding:20px 15px}.nav{padding:15px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
-/* Six-step map and artwork review enhancements */
-.workflow ol{grid-template-columns:repeat(6,1fr)}
+/* Seven-step map and artwork review enhancements */
+.workflow ol{grid-template-columns:repeat(7,1fr)}
 .imageframe{display:block;width:100%;padding:0;background:var(--sheet);cursor:zoom-in}.imageframe:hover{border-color:var(--red)}
 .locationlayout,.radiuslayout{display:grid;grid-template-columns:minmax(280px,.82fr) minmax(360px,1.18fr);gap:24px;align-items:start}.rangebox{min-width:0}
 .mapcard{border:1px solid var(--line);background:var(--sheet);box-shadow:3px 4px 0 rgba(36,34,30,.08);overflow:hidden}.maphead{display:flex;justify-content:space-between;gap:12px;padding:10px 13px;border-bottom:1px solid var(--line);font:700 10px var(--mono);letter-spacing:.08em;text-transform:uppercase}.maphead span:last-child{color:var(--red)}.map{position:relative;min-height:330px;overflow:hidden;background:#e8e0cf}.mapworld{position:absolute;inset:-18%;transform:scale(var(--map-zoom,1));transition:transform .35s ease;background-color:#e8e0cf;background-image:linear-gradient(31deg,transparent 47%,rgba(255,253,247,.95) 48%,rgba(255,253,247,.95) 52%,transparent 53%),linear-gradient(90deg,transparent 46%,rgba(255,253,247,.85) 47%,rgba(255,253,247,.85) 53%,transparent 54%),linear-gradient(0deg,transparent 45%,rgba(255,253,247,.9) 46%,rgba(255,253,247,.9) 53%,transparent 54%),repeating-linear-gradient(90deg,rgba(118,43,43,.1) 0 1px,transparent 1px 58px),repeating-linear-gradient(0deg,rgba(118,43,43,.1) 0 1px,transparent 1px 48px)}.mapworld:before,.mapworld:after{content:"";position:absolute;background:rgba(54,93,72,.12);border:1px solid rgba(54,93,72,.2);border-radius:45%}.mapworld:before{width:25%;height:18%;left:8%;top:13%}.mapworld:after{width:19%;height:25%;right:9%;bottom:8%}.radiusring{position:absolute;left:50%;top:50%;width:var(--ring,150px);height:var(--ring,150px);transform:translate(-50%,-50%);border:2px solid var(--red);border-radius:50%;background:rgba(118,43,43,.08);transition:width .35s ease,height .35s ease}.centermarker{position:absolute;left:50%;top:50%;width:18px;height:18px;transform:translate(-50%,-50%) rotate(45deg);border:3px solid var(--sheet);border-radius:50% 50% 50% 0;background:var(--red);box-shadow:0 2px 5px rgba(0,0,0,.3)}.house{position:absolute;width:7px;height:7px;border:1px solid var(--sheet);border-radius:50%;background:var(--green);box-shadow:0 1px 2px rgba(0,0,0,.25)}.maplabel{position:absolute;padding:2px 5px;background:rgba(250,245,234,.86);color:var(--muted);font:9px var(--mono);text-transform:uppercase}.mapkey{display:flex;gap:16px;flex-wrap:wrap;padding:9px 12px;border-top:1px solid var(--line);color:var(--muted);font:9px var(--mono);text-transform:uppercase}.mapkey i{display:inline-block;width:8px;height:8px;margin-right:5px;border-radius:50%;background:var(--green)}.mapkey i.ring{background:rgba(118,43,43,.1);border:1px solid var(--red)}
@@ -19,19 +19,346 @@
 </head>
 <body>
 <h1 class="sr-only">RebuttaLDS.org neighborhood postcard mailing wizard</h1>
-<nav class="workflow" aria-label="Postcard mailing steps"><ol class="shell" id="breadcrumbs"></ol></nav>
-<main class="shell"><div class="wizard">
-<section class="panel" data-step="0" aria-labelledby="home-title"><div class="panelhead"><div><div class="stepcount">Step 1 of 6 · Home</div><h2 id="home-title">Home: Review your postcard.</h2><p class="lede">Review both sides of the finished postcard, then choose whether RebuttaLDS should guide your mailing or you simply want the print-ready file. Select either image for a closer look.</p></div><div class="filemeta">Campaign file<strong id="date">Ready today</strong>Artwork: print-ready</div></div><div class="creative"><figure><figcaption class="postlabel">Exhibit A / Front</figcaption><button class="imageframe" type="button" data-art="rebuttalds-postcard-4x6-Front.jpg" data-art-alt="Front of the RebuttaLDS neighborhood outreach postcard" aria-label="Enlarge postcard front"><img src="rebuttalds-postcard-4x6-Front.jpg" alt="Front of the RebuttaLDS neighborhood outreach postcard" width="1200" height="800"></button></figure><figure><figcaption class="postlabel">Exhibit B / Back</figcaption><button class="imageframe" type="button" data-art="rebuttalds-postcard-4x6-Back.jpg" data-art-alt="Back of the RebuttaLDS postcard with research points and mailing area" aria-label="Enlarge postcard back"><img src="rebuttalds-postcard-4x6-Back.jpg" alt="Back of the RebuttaLDS postcard with research points and mailing area" width="1200" height="800"></button></figure></div><div class="choicecards"><article class="choice"><h3>Have us prepare the mailing</h3><p>Choose a location, radius, budget, and recipients. You will review everything before confirmation.</p><button class="btn" type="button" data-go="1">Continue the journey</button></article><article class="choice"><h3>Download the PDF only</h3><p>Use the finished 4 × 6 file with your own printer or mailing service.</p><a class="btn secondary" href="rebuttalds-postcard-4x6.pdf" download>Download print-ready PDF</a></article></div></section>
-<section class="panel" data-step="1" aria-labelledby="location-title" hidden><div class="panelhead"><div><div class="stepcount">Step 2 of 6 · Location</div><h2 id="location-title">Location: Choose where to begin.</h2><p class="lede">Use your current GPS position or enter the address at the center of the neighborhood you want to reach.</p></div><span class="meta" id="originMeta">GPS center</span></div><div class="locationlayout"><div class="formbox"><fieldset><legend>Choose the center point</legend><div class="segments"><label><input type="radio" name="originMode" value="gps" checked>Use my GPS location</label><label><input type="radio" name="originMode" value="address">Enter an address</label></div></fieldset><div class="address" id="addressField" hidden><label class="fieldlabel" for="addressInput">Street address, city, state, ZIP</label><input id="addressInput" type="text" autocomplete="street-address" placeholder="50 W 200 S, Salt Lake City, UT 84101"></div><div class="locationcard" aria-live="polite"><strong id="street">350 S State St</strong><span id="city">Salt Lake City, UT 84111</span><br><span class="coords" id="coords">40.7608, -111.8910 · location center ready</span></div></div><div class="mapcard" aria-label="Map showing the selected neighborhood center"><div class="maphead"><span>Neighborhood preview</span><span>Center selected</span></div><div class="map"><div class="mapworld"><span class="maplabel" style="left:37%;top:22%">Central City</span><span class="maplabel" style="right:18%;bottom:25%">Liberty Park</span></div><span class="radiusring" style="--ring:92px"></span><span class="centermarker"></span></div><div class="mapkey"><span><i class="ring"></i>Starting area</span><span>Salt Lake City, Utah</span></div></div></div></section>
-<section class="panel" data-step="2" aria-labelledby="radius-title" hidden><div class="panelhead"><div><div class="stepcount">Step 3 of 6 · Radius and Budget</div><h2 id="radius-title">Radius and Budget: Shape your mailing.</h2><p class="lede">Adjust the distance to see the neighborhood coverage, mailing quantity, and estimated budget change together.</p></div><span class="meta">Live estimate · No charge today</span></div><div class="radiuslayout"><div class="rangebox"><div class="control-label"><label for="radius">Search radius</label><output id="radiusValue" for="radius">0.8 miles</output></div><input id="radius" type="range" min="0" max="4" step="1" value="2"><div class="ticks" aria-hidden="true"><span>0.3</span><span>0.5</span><span>0.8</span><span>1.3</span><span>2.0 mi</span></div><div class="tiergrid"><div class="fact"><span>Homes found nearby</span><strong id="households">247</strong></div><div class="fact"><span>Closest homes selected</span><strong id="selectedHomes">100</strong></div><div class="fact"><span>Coverage</span><strong id="within">0.8 mi</strong></div><div class="fact"><span>Mailing quantity</span><strong id="vendorTier">100 pieces</strong></div><div class="fact"><span>Per-piece estimate</span><strong id="perPiece">$0.75</strong></div><div class="fact"><span>Estimated total</span><strong id="estimatedTotal">$75.00</strong></div></div><div class="readiness"><strong>Approval remains with you</strong>This live estimate is for planning. Nothing is sent or charged during this review.</div></div><div class="mapcard"><div class="maphead"><span>Selected households</span><span id="mapScale">0.8-mile view</span></div><div class="map" id="radiusMap" style="--ring:150px;--map-zoom:1"><div class="mapworld"><span class="maplabel" style="left:37%;top:22%">Central City</span><span class="maplabel" style="right:18%;bottom:25%">Liberty Park</span></div><span class="radiusring"></span><span class="centermarker"></span><span class="house" style="left:43%;top:38%"></span><span class="house" style="left:57%;top:35%"></span><span class="house" style="left:61%;top:52%"></span><span class="house" style="left:38%;top:57%"></span><span class="house" style="left:49%;top:66%"></span><span class="house" style="left:68%;top:43%"></span><span class="house" style="left:31%;top:45%"></span><span class="house" style="left:56%;top:72%"></span></div><div class="mapkey"><span><i></i>Selected home</span><span><i class="ring"></i>Search radius</span></div></div></div></section>
-<section class="panel" data-step="3" aria-labelledby="recipients-title" hidden><div class="panelhead"><div><div class="stepcount">Step 4 of 6 · Recipients</div><h2 id="recipients-title">Recipients: Review the closest households.</h2><p class="lede">Use the preview to include or exclude individual addresses before approving your audience.</p></div><span class="meta" id="counter">10 preview rows selected</span></div><div class="scroll"><table class="table"><thead><tr><th scope="col">Select</th><th scope="col">No.</th><th scope="col">Residential address</th><th scope="col">Distance</th><th scope="col">Status</th></tr></thead><tbody id="rows"></tbody></table></div><div class="tablemeta"><span id="showing">Showing 10 of 100 selected homes</span><span id="validation">98 addresses ready</span></div></section>
-<section class="panel" data-step="4" aria-labelledby="approval-title" hidden><div class="panelhead"><div><div class="stepcount">Step 5 of 6 · Approval</div><h2 id="approval-title">Approval: Check the complete mailing plan.</h2><p class="lede">This is your review copy. Confirm the audience, reach, cost, and artwork before moving to the final screen.</p></div><span class="stamp">Human review</span></div><div class="approvalgrid"><div class="fact"><span>Selected recipients</span><strong id="approvalCount">100</strong></div><div class="fact"><span>Radius</span><strong id="approvalRadius">0.8 miles</strong></div><div class="fact"><span>Estimated budget</span><strong id="approvalBudget">$75.00</strong></div><div class="fact"><span>Front artwork</span><strong class="good">Ready</strong></div><div class="fact"><span>Back artwork</span><strong class="good">Ready</strong></div><div class="fact"><span>Print file</span><strong class="good">Ready</strong></div></div></section>
-<section class="panel" data-step="5" aria-labelledby="confirm-title" hidden><div class="panelhead"><div><div class="stepcount">Step 6 of 6 · Confirm</div><h2 id="confirm-title">Confirm: Give your final approval.</h2><p class="lede">Your approved plan is ready for the next step. No postcards have been sent and no payment has been collected.</p></div><span class="stamp">Final control</span></div><div class="confirmbox"><h3>Mailing authorization</h3><p>When you continue, your approved postcard plan will move to the printer’s secure checkout, where you can review fulfillment details and complete payment.</p><button class="btn" id="printerCheckout" type="button" aria-describedby="send-note">Continue to secure printer checkout</button><p class="hint" id="send-note">You will review the order and payment details securely with the printer before anything is produced.</p></div></section>
-<div class="nav"><button class="btn secondary" id="back" type="button">Back</button><span class="navstatus" id="navStatus" aria-live="polite">Step 1 of 6 · Home</span><button class="btn" id="next" type="button">Next: Location</button></div>
-</div></main><footer class="footer"><div class="shell">RebuttaLDS.org · Personal neighborhood outreach · Campaign record</div></footer><div class="toast" id="toast" role="status" aria-live="polite"></div>
-<div class="artmodal" id="artModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden><div class="modalbody"><h2 class="sr-only" id="modalTitle">Enlarged postcard artwork</h2><button class="modalclose" id="modalClose" type="button" aria-label="Close enlarged postcard">×</button><img id="modalImage" src="rebuttalds-postcard-4x6-Front.jpg" alt=""></div></div>
+<nav class="workflow" aria-label="Postcard mailing steps">
+<ol class="shell" id="breadcrumbs">
+</ol>
+</nav>
+<main class="shell">
+<div class="wizard">
+<section class="panel" data-step="0" aria-labelledby="mission-title">
+<div class="panelhead">
+<div>
+<div class="stepcount">Step 1 of 7 · Mission</div>
+<h2 id="mission-title">Mission: Hear the other side of the story.</h2>
+<p class="lede">RebuttaLDS offers a calm, well-sourced counter-argument to the polished salesmanship of Latter-day Saint proselytizers—so people can consider a consequential invitation with fuller context.</p>
+</div>
+<span class="stamp">Context before commitment</span>
+</div>
+<div class="formbox">
+<span class="kicker">Why this exists</span>
+<h3>Persuasion is easier to recognize when you can see the playbook.</h3>
+<p>Missionaries are trained to listen for a person’s grievance, uncertainty, or unmet need; present the LDS narrative as an emotionally resonant solution; and guide the conversation toward belief and commitment.</p>
+<p>Most everyday citizens have not been prepared for that refined persuasive approach. RebuttaLDS helps restore balance by placing the counterpoints, historical context, and questions they may not otherwise hear within reach.</p>
+<div class="readiness">
+<strong>Our purpose</strong>Not hostility toward individual missionaries or believers, but informed choice: a clear opportunity to weigh the other side before making a decision.</div>
+</div>
+</section>
+<section class="panel" data-step="1" aria-labelledby="home-title" hidden>
+<div class="panelhead">
+<div>
+<div class="stepcount">Step 2 of 7 · Home</div>
+<h2 id="home-title">Home: Review your postcard.</h2>
+<p class="lede">Review both sides of the finished postcard, then choose whether RebuttaLDS should guide your mailing or you simply want the print-ready file. Select either image for a closer look.</p>
+</div>
+<div class="filemeta">Campaign file<strong id="date">Ready today</strong>Artwork: print-ready</div>
+</div>
+<div class="creative">
+<figure>
+<figcaption class="postlabel">Exhibit A / Front</figcaption>
+<button class="imageframe" type="button" data-art="rebuttalds-postcard-4x6-Front.jpg" data-art-alt="Front of the RebuttaLDS neighborhood outreach postcard" aria-label="Enlarge postcard front">
+<img src="rebuttalds-postcard-4x6-Front.jpg" alt="Front of the RebuttaLDS neighborhood outreach postcard" width="1200" height="800">
+</button>
+</figure>
+<figure>
+<figcaption class="postlabel">Exhibit B / Back</figcaption>
+<button class="imageframe" type="button" data-art="rebuttalds-postcard-4x6-Back.jpg" data-art-alt="Back of the RebuttaLDS postcard with research points and mailing area" aria-label="Enlarge postcard back">
+<img src="rebuttalds-postcard-4x6-Back.jpg" alt="Back of the RebuttaLDS postcard with research points and mailing area" width="1200" height="800">
+</button>
+</figure>
+</div>
+<div class="choicecards">
+<article class="choice">
+<h3>Have us prepare the mailing</h3>
+<p>Choose a location, radius, budget, and recipients. You will review everything before confirmation.</p>
+<button class="btn" type="button" data-go="2">Continue the journey</button>
+</article>
+<article class="choice">
+<h3>Download the PDF only</h3>
+<p>Use the finished 4 × 6 file with your own printer or mailing service.</p>
+<a class="btn secondary" href="rebuttalds-postcard-4x6.pdf" download>Download print-ready PDF</a>
+</article>
+</div>
+</section>
+<section class="panel" data-step="2" aria-labelledby="location-title" hidden>
+<div class="panelhead">
+<div>
+<div class="stepcount">Step 3 of 7 · Location</div>
+<h2 id="location-title">Location: Choose where to begin.</h2>
+<p class="lede">Use your current GPS position or enter the address at the center of the neighborhood you want to reach.</p>
+</div>
+<span class="meta" id="originMeta">GPS center</span>
+</div>
+<div class="locationlayout">
+<div class="formbox">
+<fieldset>
+<legend>Choose the center point</legend>
+<div class="segments">
+<label>
+<input type="radio" name="originMode" value="gps" checked>Use my GPS location</label>
+<label>
+<input type="radio" name="originMode" value="address">Enter an address</label>
+</div>
+</fieldset>
+<div class="address" id="addressField" hidden>
+<label class="fieldlabel" for="addressInput">Street address, city, state, ZIP</label>
+<input id="addressInput" type="text" autocomplete="street-address" placeholder="50 W 200 S, Salt Lake City, UT 84101">
+</div>
+<div class="locationcard" aria-live="polite">
+<strong id="street">350 S State St</strong>
+<span id="city">Salt Lake City, UT 84111</span>
+<br>
+<span class="coords" id="coords">40.7608, -111.8910 · location center ready</span>
+</div>
+</div>
+<div class="mapcard" aria-label="Map showing the selected neighborhood center">
+<div class="maphead">
+<span>Neighborhood preview</span>
+<span>Center selected</span>
+</div>
+<div class="map">
+<div class="mapworld">
+<span class="maplabel" style="left:37%;top:22%">Central City</span>
+<span class="maplabel" style="right:18%;bottom:25%">Liberty Park</span>
+</div>
+<span class="radiusring" style="--ring:92px">
+</span>
+<span class="centermarker">
+</span>
+</div>
+<div class="mapkey">
+<span>
+<i class="ring">
+</i>Starting area</span>
+<span>Salt Lake City, Utah</span>
+</div>
+</div>
+</div>
+</section>
+<section class="panel" data-step="3" aria-labelledby="radius-title" hidden>
+<div class="panelhead">
+<div>
+<div class="stepcount">Step 4 of 7 · Radius and Budget</div>
+<h2 id="radius-title">Radius and Budget: Shape your mailing.</h2>
+<p class="lede">Adjust the distance to see the neighborhood coverage, mailing quantity, and estimated budget change together.</p>
+</div>
+<span class="meta">Live estimate · No charge today</span>
+</div>
+<div class="radiuslayout">
+<div class="rangebox">
+<div class="control-label">
+<label for="radius">Search radius</label>
+<output id="radiusValue" for="radius">0.8 miles</output>
+</div>
+<input id="radius" type="range" min="0" max="4" step="1" value="2">
+<div class="ticks" aria-hidden="true">
+<span>0.3</span>
+<span>0.5</span>
+<span>0.8</span>
+<span>1.3</span>
+<span>2.0 mi</span>
+</div>
+<div class="tiergrid">
+<div class="fact">
+<span>Homes found nearby</span>
+<strong id="households">247</strong>
+</div>
+<div class="fact">
+<span>Closest homes selected</span>
+<strong id="selectedHomes">100</strong>
+</div>
+<div class="fact">
+<span>Coverage</span>
+<strong id="within">0.8 mi</strong>
+</div>
+<div class="fact">
+<span>Mailing quantity</span>
+<strong id="vendorTier">100 pieces</strong>
+</div>
+<div class="fact">
+<span>Per-piece estimate</span>
+<strong id="perPiece">$0.75</strong>
+</div>
+<div class="fact">
+<span>Estimated total</span>
+<strong id="estimatedTotal">$75.00</strong>
+</div>
+</div>
+<div class="readiness">
+<strong>Approval remains with you</strong>This live estimate is for planning. Nothing is sent or charged during this review.</div>
+</div>
+<div class="mapcard">
+<div class="maphead">
+<span>Selected households</span>
+<span id="mapScale">0.8-mile view</span>
+</div>
+<div class="map" id="radiusMap" style="--ring:150px;--map-zoom:1">
+<div class="mapworld">
+<span class="maplabel" style="left:37%;top:22%">Central City</span>
+<span class="maplabel" style="right:18%;bottom:25%">Liberty Park</span>
+</div>
+<span class="radiusring">
+</span>
+<span class="centermarker">
+</span>
+<span class="house" style="left:43%;top:38%">
+</span>
+<span class="house" style="left:57%;top:35%">
+</span>
+<span class="house" style="left:61%;top:52%">
+</span>
+<span class="house" style="left:38%;top:57%">
+</span>
+<span class="house" style="left:49%;top:66%">
+</span>
+<span class="house" style="left:68%;top:43%">
+</span>
+<span class="house" style="left:31%;top:45%">
+</span>
+<span class="house" style="left:56%;top:72%">
+</span>
+</div>
+<div class="mapkey">
+<span>
+<i>
+</i>Selected home</span>
+<span>
+<i class="ring">
+</i>Search radius</span>
+</div>
+</div>
+</div>
+</section>
+<section class="panel" data-step="4" aria-labelledby="recipients-title" hidden>
+<div class="panelhead">
+<div>
+<div class="stepcount">Step 5 of 7 · Recipients</div>
+<h2 id="recipients-title">Recipients: Review the closest households.</h2>
+<p class="lede">Use the preview to include or exclude individual addresses before approving your audience.</p>
+</div>
+<span class="meta" id="counter">10 preview rows selected</span>
+</div>
+<div class="scroll">
+<table class="table">
+<thead>
+<tr>
+<th scope="col">Select</th>
+<th scope="col">No.</th>
+<th scope="col">Residential address</th>
+<th scope="col">Distance</th>
+<th scope="col">Status</th>
+</tr>
+</thead>
+<tbody id="rows">
+</tbody>
+</table>
+</div>
+<div class="tablemeta">
+<span id="showing">Showing 10 of 100 selected homes</span>
+<span id="validation">98 addresses ready</span>
+</div>
+</section>
+<section class="panel" data-step="5" aria-labelledby="approval-title" hidden>
+<div class="panelhead">
+<div>
+<div class="stepcount">Step 6 of 7 · Approval</div>
+<h2 id="approval-title">Approval: Check the complete mailing plan.</h2>
+<p class="lede">This is your review copy. Confirm the audience, reach, cost, and artwork before moving to the final screen.</p>
+</div>
+<span class="stamp">Human review</span>
+</div>
+<div class="approvalgrid">
+<div class="fact">
+<span>Selected recipients</span>
+<strong id="approvalCount">100</strong>
+</div>
+<div class="fact">
+<span>Radius</span>
+<strong id="approvalRadius">0.8 miles</strong>
+</div>
+<div class="fact">
+<span>Estimated budget</span>
+<strong id="approvalBudget">$75.00</strong>
+</div>
+<div class="fact">
+<span>Front artwork</span>
+<strong class="good">Ready</strong>
+</div>
+<div class="fact">
+<span>Back artwork</span>
+<strong class="good">Ready</strong>
+</div>
+<div class="fact">
+<span>Print file</span>
+<strong class="good">Ready</strong>
+</div>
+</div>
+</section>
+<section class="panel" data-step="6" aria-labelledby="confirm-title" hidden>
+<div class="panelhead">
+<div>
+<div class="stepcount">Step 7 of 7 · Confirm</div>
+<h2 id="confirm-title">Confirm: Give your final approval.</h2>
+<p class="lede">Your approved plan is ready for the next step. No postcards have been sent and no payment has been collected.</p>
+</div>
+<span class="stamp">Final control</span>
+</div>
+<div class="confirmbox">
+<h3>Mailing authorization</h3>
+<p>When you continue, your approved postcard plan will move to the printer’s secure checkout, where you can review fulfillment details and complete payment.</p>
+<button class="btn" id="printerCheckout" type="button" aria-describedby="send-note">Continue to secure printer checkout</button>
+<p class="hint" id="send-note">You will review the order and payment details securely with the printer before anything is produced.</p>
+</div>
+</section>
+<div class="nav">
+<button class="btn secondary" id="back" type="button" hidden>Back</button>
+<span class="navstatus" id="navStatus" aria-live="polite">Step 1 of 7 · Mission</span>
+<button class="btn" id="next" type="button">Next: Home</button>
+</div>
+</div>
+</main>
+<footer class="footer">
+<div class="shell">RebuttaLDS.org · Personal neighborhood outreach · Campaign record</div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite">
+</div>
+<div class="artmodal" id="artModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+<div class="modalbody">
+<h2 class="sr-only" id="modalTitle">Enlarged postcard artwork</h2>
+<button class="modalclose" id="modalClose" type="button" aria-label="Close enlarged postcard">×</button>
+<img id="modalImage" src="rebuttalds-postcard-4x6-Front.jpg" alt="">
+</div>
+</div>
 <script>
-(function(){'use strict';var names=['Home','Location','Radius and Budget','Recipients','Approval','Confirm'],data=[['01','357 S 500 E','Salt Lake City, UT 84102','0.12 mi','Verified'],['02','421 E 400 S','Salt Lake City, UT 84111','0.16 mi','Verified'],['03','465 S Denver St','Salt Lake City, UT 84111','0.21 mi','Verified'],['04','535 E 300 S','Salt Lake City, UT 84102','0.24 mi','Verified'],['05','276 S 600 E','Salt Lake City, UT 84102','0.28 mi','Verified'],['06','617 E 500 S','Salt Lake City, UT 84102','0.31 mi','Review unit'],['07','243 S 700 E','Salt Lake City, UT 84102','0.35 mi','Verified'],['08','711 E 400 S','Salt Lake City, UT 84102','0.39 mi','Verified'],['09','638 E 600 S','Salt Lake City, UT 84102','0.43 mi','Verified'],['10','805 E 300 S','Salt Lake City, UT 84102','0.48 mi','Verified']],tiers=[{radius:.3,qty:25,found:61,price:.94},{radius:.5,qty:50,found:126,price:.84},{radius:.8,qty:100,found:247,price:.75},{radius:1.3,qty:250,found:612,price:.62},{radius:2,qty:500,found:1184,price:.54}],$=function(id){return document.getElementById(id)},step=0,current=tiers[2],originMode='gps',lastArtTrigger=null;function render(){ $('breadcrumbs').innerHTML=names.map(function(n,i){return '<li><button class="crumb" type="button" data-step-button="'+i+'"><span>'+(i+1)+'</span>'+n+'</button></li>'}).join('');$('rows').innerHTML=data.map(function(r){return '<tr><td><input class="check" type="checkbox" checked aria-label="Select '+r[1]+'"></td><td>'+r[0]+'</td><td><strong>'+r[1]+'</strong><br><span class="tiny">'+r[2]+'</span></td><td>'+r[3]+'</td><td><span class="status '+(r[4]==='Verified'?'':'review')+'">'+r[4]+'</span></td></tr>'}).join('')}function go(n,focus){step=Math.max(0,Math.min(5,n));document.querySelectorAll('.panel').forEach(function(p){p.hidden=Number(p.dataset.step)!==step});document.querySelectorAll('.crumb').forEach(function(b,i){b.removeAttribute('aria-current');b.classList.toggle('visited',i<step);if(i===step)b.setAttribute('aria-current','step')});$('back').hidden=step===0;$('next').hidden=step===5;$('next').textContent=step<5?'Next: '+names[step+1]:'';$('navStatus').textContent='Step '+(step+1)+' of 6 · '+names[step];if(step===4)syncApproval();window.scrollTo({top:0,behavior:'smooth'});if(focus){var h=document.querySelector('.panel[data-step="'+step+'"] h2');h.setAttribute('tabindex','-1');h.focus()}}function showAddress(){var v=$('addressInput').value.trim(),p=v.split(',').map(function(x){return x.trim()}).filter(Boolean);$('street').textContent=p[0]||'Enter an address above';$('city').textContent=p.length>1?p.slice(1).join(', '):'Address center awaiting details';$('coords').textContent='Address center entered · ready to review'}function setOrigin(mode){originMode=mode==='address'?'address':'gps';var manual=originMode==='address';$('addressField').hidden=!manual;$('addressInput').disabled=!manual;$('originMeta').textContent=manual?'Address center':'GPS center';if(manual)showAddress();else{$('street').textContent='350 S State St';$('city').textContent='Salt Lake City, UT 84111';$('coords').textContent='40.7608, -111.8910 · location center ready'}}function updateTier(){current=tiers[Number($('radius').value)]||tiers[2];var r=current.radius.toFixed(1),total=(current.qty*current.price).toFixed(2),ready=Math.max(0,current.qty-Math.ceil(current.qty*.02));$('radiusValue').textContent=r+' miles';$('within').textContent=r+' mi';$('households').textContent=current.found.toLocaleString();$('selectedHomes').textContent=current.qty.toLocaleString();$('vendorTier').textContent=current.qty.toLocaleString()+' pieces';$('perPiece').textContent='$'+current.price.toFixed(2);$('estimatedTotal').textContent='$'+total;$('showing').textContent='Showing 10 of '+current.qty.toLocaleString()+' selected homes';$('validation').textContent=ready.toLocaleString()+' addresses ready';var map=$('radiusMap'),level=Number($('radius').value);map.style.setProperty('--ring',(82+level*34)+'px');map.style.setProperty('--map-zoom',(1.24-level*.09).toFixed(2));$('mapScale').textContent=r+'-mile view';syncApproval()}function syncApproval(){$('approvalCount').textContent=current.qty.toLocaleString();$('approvalRadius').textContent=current.radius.toFixed(1)+' miles';$('approvalBudget').textContent='$'+(current.qty*current.price).toFixed(2)}function apply(p){if(!p||typeof p!=='object')return;var lat=Number(p.latitude!=null?p.latitude:p.lat),lng=Number(p.longitude!=null?p.longitude:(p.lng!=null?p.lng:p.lon));if(isFinite(lat)&&isFinite(lng))$('coords').textContent=lat.toFixed(4)+', '+lng.toFixed(4)+' · location center ready';if(typeof p.address==='string')$('street').textContent=p.address;else if(p.address&&typeof p.address==='object'){if(p.address.line1||p.address.street)$('street').textContent=p.address.line1||p.address.street;var c=[p.address.city,p.address.state,p.address.zip||p.address.postalCode].filter(Boolean).join(' ');if(c)$('city').textContent=c}if(typeof p.radiusMiles==='number'&&isFinite(p.radiusMiles)){var best=0,d=Infinity;tiers.forEach(function(t,i){var x=Math.abs(t.radius-p.radiusMiles);if(x<d){d=x;best=i}});$('radius').value=best;updateTier()}}function openArt(button){lastArtTrigger=button;$('modalImage').src=button.dataset.art;$('modalImage').alt=button.dataset.artAlt;$('artModal').hidden=false;document.body.classList.add('modal-open');$('modalClose').focus()}function closeArt(){if($('artModal').hidden)return;$('artModal').hidden=true;document.body.classList.remove('modal-open');if(lastArtTrigger)lastArtTrigger.focus()}function complete(){if(typeof window.ASOS_COMPLETE==='function')window.ASOS_COMPLETE({status:'ready-for-review',originMode:originMode,radiusMiles:current.radius,selectedHomes:current.qty,vendorTier:current.qty,perPieceEstimate:current.price,estimatedTotal:Number((current.qty*current.price).toFixed(2)),renderedRecipients:10,liveSendEnabled:false})}function fail(e){if(typeof window.ASOS_FAIL==='function')window.ASOS_FAIL({status:'campaign-error',message:e&&e.message?e.message:'Unable to apply location details'})}function asos(){if(typeof window.ASOS_RUN==='undefined')return;try{var result=typeof window.ASOS_RUN==='function'?window.ASOS_RUN({accepts:['address','latitude','longitude','radiusMiles']}):window.ASOS_RUN;if(result&&typeof result.then==='function')result.then(function(p){apply(p);complete()}).catch(fail);else{apply(result);complete()}}catch(e){fail(e)}}function init(){render();updateTier();setOrigin('gps');go(0);try{$('date').textContent=new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',year:'numeric'}).format(new Date())}catch(e){$('date').textContent=new Date().toDateString()}$('next').addEventListener('click',function(){go(step+1,true)});$('back').addEventListener('click',function(){go(step-1,true)});document.addEventListener('click',function(e){var b=e.target.closest('[data-step-button],[data-go]');if(b)go(Number(b.dataset.stepButton!=null?b.dataset.stepButton:b.dataset.go),true)});$('radius').addEventListener('input',updateTier);document.querySelectorAll('[data-art]').forEach(function(x){x.addEventListener('click',function(){openArt(x)})});$('modalClose').addEventListener('click',closeArt);$('artModal').addEventListener('click',function(e){if(e.target===$('artModal'))closeArt()});document.addEventListener('keydown',function(e){if(e.key==='Escape')closeArt()});$('printerCheckout').addEventListener('click',function(){$('toast').textContent='Secure printer checkout will open here.';$('toast').classList.add('show');setTimeout(function(){$('toast').classList.remove('show')},2400)});document.querySelectorAll('input[name="originMode"]').forEach(function(x){x.addEventListener('change',function(){if(x.checked){setOrigin(x.value);if(x.value==='address')$('addressInput').focus()}})});$('addressInput').addEventListener('input',showAddress);document.querySelectorAll('.check').forEach(function(x){x.addEventListener('change',function(){$('counter').textContent=document.querySelectorAll('.check:checked').length+' preview rows selected'})});setTimeout(asos,0)}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init()}());
+(function(){'use strict';var names=['Mission','Home','Location','Radius and Budget','Recipients','Approval','Confirm'],data=[['01','357 S 500 E','Salt Lake City, UT 84102','0.12 mi','Verified'],['02','421 E 400 S','Salt Lake City, UT 84111','0.16 mi','Verified'],['03','465 S Denver St','Salt Lake City, UT 84111','0.21 mi','Verified'],['04','535 E 300 S','Salt Lake City, UT 84102','0.24 mi','Verified'],['05','276 S 600 E','Salt Lake City, UT 84102','0.28 mi','Verified'],['06','617 E 500 S','Salt Lake City, UT 84102','0.31 mi','Review unit'],['07','243 S 700 E','Salt Lake City, UT 84102','0.35 mi','Verified'],['08','711 E 400 S','Salt Lake City, UT 84102','0.39 mi','Verified'],['09','638 E 600 S','Salt Lake City, UT 84102','0.43 mi','Verified'],['10','805 E 300 S','Salt Lake City, UT 84102','0.48 mi','Verified']],tiers=[{radius:.3,qty:25,found:61,price:.94},{radius:.5,qty:50,found:126,price:.84},{radius:.8,qty:100,found:247,price:.75},{radius:1.3,qty:250,found:612,price:.62},{radius:2,qty:500,found:1184,price:.54}],$=function(id){return document.getElementById(id)},step=0,current=tiers[2],originMode='gps',lastArtTrigger=null;function render(){ $('breadcrumbs').innerHTML=names.map(function(n,i){return '<li>\
+<button class="crumb" type="button" data-step-button="'+i+'">\
+<span>'+(i+1)+'</span>'+n+'</button>\
+</li>'}).join('');$('rows').innerHTML=data.map(function(r){return '<tr>\
+<td>\
+<input class="check" type="checkbox" checked aria-label="Select '+r[1]+'">\
+</td>\
+<td>'+r[0]+'</td>\
+<td>\
+<strong>'+r[1]+'</strong>\
+<br>\
+<span class="tiny">'+r[2]+'</span>\
+</td>\
+<td>'+r[3]+'</td>\
+<td>\
+<span class="status '+(r[4]==='Verified'?'':'review')+'">'+r[4]+'</span>\
+</td>\
+</tr>'}).join('')}
+function go(n,focus){step=Math.max(0,Math.min(6,n));document.querySelectorAll('.panel').forEach(function(p){p.hidden=Number(p.dataset.step)!==step});document.querySelectorAll('.crumb').forEach(function(b,i){b.removeAttribute('aria-current');b.classList.toggle('visited',i<step);if(i===step)b.setAttribute('aria-current','step')});$('back').hidden=step===0;$('next').hidden=step===6;$('next').textContent=step<6?'Next: '+names[step+1]:'';$('navStatus').textContent='Step '+(step+1)+' of 7 · '+names[step];if(step===5)syncApproval();window.scrollTo({top:0,behavior:'smooth'});if(focus){var h=document.querySelector('.panel[data-step="'+step+'"] h2');h.setAttribute('tabindex','-1');h.focus()}}
+function showAddress(){var v=$('addressInput').value.trim(),p=v.split(',').map(function(x){return x.trim()}).filter(Boolean);$('street').textContent=p[0]||'Enter an address above';$('city').textContent=p.length>1?p.slice(1).join(', '):'Address center awaiting details';$('coords').textContent='Address center entered · ready to review'}
+function setOrigin(mode){originMode=mode==='address'?'address':'gps';var manual=originMode==='address';$('addressField').hidden=!manual;$('addressInput').disabled=!manual;$('originMeta').textContent=manual?'Address center':'GPS center';if(manual)showAddress();else{$('street').textContent='350 S State St';$('city').textContent='Salt Lake City, UT 84111';$('coords').textContent='40.7608, -111.8910 · location center ready'}}
+function updateTier(){current=tiers[Number($('radius').value)]||tiers[2];var r=current.radius.toFixed(1),total=(current.qty*current.price).toFixed(2),ready=Math.max(0,current.qty-Math.ceil(current.qty*.02));$('radiusValue').textContent=r+' miles';$('within').textContent=r+' mi';$('households').textContent=current.found.toLocaleString();$('selectedHomes').textContent=current.qty.toLocaleString();$('vendorTier').textContent=current.qty.toLocaleString()+' pieces';$('perPiece').textContent='$'+current.price.toFixed(2);$('estimatedTotal').textContent='$'+total;$('showing').textContent='Showing 10 of '+current.qty.toLocaleString()+' selected homes';$('validation').textContent=ready.toLocaleString()+' addresses ready';var map=$('radiusMap'),level=Number($('radius').value);map.style.setProperty('--ring',(82+level*34)+'px');map.style.setProperty('--map-zoom',(1.24-level*.09).toFixed(2));$('mapScale').textContent=r+'-mile view';syncApproval()}
+function syncApproval(){$('approvalCount').textContent=current.qty.toLocaleString();$('approvalRadius').textContent=current.radius.toFixed(1)+' miles';$('approvalBudget').textContent='$'+(current.qty*current.price).toFixed(2)}
+function apply(p){if(!p||typeof p!=='object')return;var lat=Number(p.latitude!=null?p.latitude:p.lat),lng=Number(p.longitude!=null?p.longitude:(p.lng!=null?p.lng:p.lon));if(isFinite(lat)&&isFinite(lng))$('coords').textContent=lat.toFixed(4)+', '+lng.toFixed(4)+' · location center ready';if(typeof p.address==='string')$('street').textContent=p.address;else if(p.address&&typeof p.address==='object'){if(p.address.line1||p.address.street)$('street').textContent=p.address.line1||p.address.street;var c=[p.address.city,p.address.state,p.address.zip||p.address.postalCode].filter(Boolean).join(' ');if(c)$('city').textContent=c}if(typeof p.radiusMiles==='number'&&isFinite(p.radiusMiles)){var best=0,d=Infinity;tiers.forEach(function(t,i){var x=Math.abs(t.radius-p.radiusMiles);if(x<d){d=x;best=i}});$('radius').value=best;updateTier()}}
+function openArt(button){lastArtTrigger=button;$('modalImage').src=button.dataset.art;$('modalImage').alt=button.dataset.artAlt;$('artModal').hidden=false;document.body.classList.add('modal-open');$('modalClose').focus()}
+function closeArt(){if($('artModal').hidden)return;$('artModal').hidden=true;document.body.classList.remove('modal-open');if(lastArtTrigger)lastArtTrigger.focus()}
+function complete(){if(typeof window.ASOS_COMPLETE==='function')window.ASOS_COMPLETE({status:'ready-for-review',originMode:originMode,radiusMiles:current.radius,selectedHomes:current.qty,vendorTier:current.qty,perPieceEstimate:current.price,estimatedTotal:Number((current.qty*current.price).toFixed(2)),renderedRecipients:10,liveSendEnabled:false})}
+function fail(e){if(typeof window.ASOS_FAIL==='function')window.ASOS_FAIL({status:'campaign-error',message:e&&e.message?e.message:'Unable to apply location details'})}
+function asos(){if(typeof window.ASOS_RUN==='undefined')return;try{var result=typeof window.ASOS_RUN==='function'?window.ASOS_RUN({accepts:['address','latitude','longitude','radiusMiles']}):window.ASOS_RUN;if(result&&typeof result.then==='function')result.then(function(p){apply(p);complete()}).catch(fail);else{apply(result);complete()}}catch(e){fail(e)}}
+function init(){render();updateTier();setOrigin('gps');go(0);try{$('date').textContent=new Intl.DateTimeFormat('en-US',{month:'short',day:'numeric',year:'numeric'}).format(new Date())}catch(e){$('date').textContent=new Date().toDateString()}$('next').addEventListener('click',function(){go(step+1,true)});$('back').addEventListener('click',function(){if(step>0)go(step-1,true)});document.addEventListener('click',function(e){var b=e.target.closest('[data-step-button],[data-go]');if(b)go(Number(b.dataset.stepButton!=null?b.dataset.stepButton:b.dataset.go),true)});$('radius').addEventListener('input',updateTier);document.querySelectorAll('[data-art]').forEach(function(x){x.addEventListener('click',function(){openArt(x)})});$('modalClose').addEventListener('click',closeArt);$('artModal').addEventListener('click',function(e){if(e.target===$('artModal'))closeArt()});document.addEventListener('keydown',function(e){if(e.key==='Escape')closeArt()});$('printerCheckout').addEventListener('click',function(){$('toast').textContent='Secure printer checkout will open here.';$('toast').classList.add('show');setTimeout(function(){$('toast').classList.remove('show')},2400)});document.querySelectorAll('input[name="originMode"]').forEach(function(x){x.addEventListener('change',function(){if(x.checked){setOrigin(x.value);if(x.value==='address')$('addressInput').focus()}})});$('addressInput').addEventListener('input',showAddress);document.querySelectorAll('.check').forEach(function(x){x.addEventListener('change',function(){$('counter').textContent=document.querySelectorAll('.check:checked').length+' preview rows selected'})});setTimeout(asos,0)}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init()}());
 </script>
 </body>
 </html>
